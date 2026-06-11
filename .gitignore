@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Data
+dataset/
+data/
+*.csv
+*.npy
+
+# Training outputs
+logs/
+logs_*/
+checkpoints/
+*.ckpt
+lightning_logs/
+
+# Reproduction outputs
+reproduce_results/
+figures_reprod/
+
+# Configs
+configs/
+
+# Figures
+figures/
+*.pdf
+*.png
+*.svg
+*.jpg
+
+# Figure generation scripts
+scripts/generate_figures.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.env
+*.log
+*.bak
+.ipynb_checkpoints/
+*.json
+*.sh
